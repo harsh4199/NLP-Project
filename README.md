@@ -14,17 +14,18 @@ Vidhi Tripathi <BR>
 Dhruv Gadhiya<BR>
 
 <p align="center">
-  <img src="image.png" alt="Image" width="300"/>
+  <img src="Image.jpg" alt="Image" width=""/>
 </p>
 
 
 ## Overview: :memo:
-This machine learning project is based on the prediction of diabetes with a given data.
-By using logistic regression and random forest regression we will predict which data model is giving good accuracy.
+This NLP project is based on the finding the sentimental score for two courier services Canada Post and Purolator according to the customer reviews using python.
 
-## About dataset::ledger:
-we worked on dataset from ***Pima tribe (also known as the Pima Indians) Diabetes dataset***.
->Pima Indians are a Native American group that lives in Mexico and Arizona, USA. This group was deemed to have a high incidence rate of diabetes mellitus. Thus, research around them was thought to be significant to and representative of global health. The Pima Indian Diabetes dataset consisting of Pima Indian females 21 years and older is a popular benchmark dataset. This group is also significant to members of underrepresented minority or indigenous groups.
+## Data Understanding::ledger:
+We collected our data from Canada Post and Purolator by using web scrapping technique from
+online reviews. We collected data from November 2021 to current July 2023 so, two years of
+data.
+>By using beautiful soup library, we fetch our data from the Trustpilot website from HTML format.
 
 #### Content::label:
 * Pregnancies: Number of times pregnant<br />
