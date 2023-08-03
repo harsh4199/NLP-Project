@@ -18,10 +18,10 @@ Dhruv Gadhiya<BR>
 </p>
 
 
-## Overview::memo:
+## Overview: :memo:
 This NLP project is based on the finding the sentimental score for two courier services Canada Post and Purolator according to the customer reviews using python.
 
-## Data Understanding::ledger:
+## Data Understanding: :ledger:
 * We collected our data from Canada Post and Purolator by using web scrapping technique from
 online reviews. We collected data from November 2021 to current July 2023 so, two years of
 data.
@@ -32,7 +32,7 @@ customer name who put the review for the service and review column with date.
 * Reviews are consisting with emojis which we must remove form the file. Review column of
 Canada post having 473242 words whereas, Purolator have 585177.
 
-## Data Cleaning and preparation::label:
+## Data Cleaning and preparation: :label:
 Here, we applied four techniques to clean our data.
 
 1. Tokenization: After collecting the data, we applied Tokenization technique into words to break
@@ -54,12 +54,12 @@ from Purolator review column.
 category which represent the other symbols including emojis helps to match from the review
 column.
 
-## Feature Engineering::bangbang:
+## Feature Engineering: :bangbang:
 * We applied TF-IDF (Term frequency- Inverse Document Frequency) vectorization which convert the text data into numerical vectors (Sparse) helps to capture the important words in the document or clustering to retrieve the information.
 * TF-IDF downweighs frequently used words that appear in text like “the,” “and” “is” etc., have high term frequencies in most documents but may not have some specific information. So, this method helps to reduce it and helps to focus on more important terms for the analysis.
 * Here we apply this technique to convert the text in numerical vectors to find the clusters.
 
-## Applied Models::page_facing_up:
+## Applied Models: :page_facing_up:
 ### 1. TextBlob:
 * We applied this library on trained ML model that can classify text into various sentiment such as positive, negative, or neutral based on the phrases and words in the review.
 * In this model polarity and subjectivity score of the text create sentiment and objectivity. Were,
@@ -72,7 +72,7 @@ SENTIMENTAL ANALYSIS USING NLP 7
 * It consists with comprehensive toolkit provide more control and flexibility for NLP. It is work well on informal languages, slang and emotions which commonly used in social media or on website.
 * Here, NLTK works good as compared to textblob.
 
-## Results and Outcome::dart:
+## Results and Outcome: :dart:
 * Sentimental score for two different services Canada post and Purolator based on Cost related reviews how customer is satisfied with their fees for posting process. Also, the delivery time service paly crucial role in any mailing services so, here the outcome is based on that and with their customer service experience in terms of sentiment score.
 * Here, our team applied two different model Textblob and NLTK based on that the outcome as below for Positive, negative, and neutral sentiment score of the reviews.
 
@@ -94,7 +94,7 @@ SENTIMENTAL ANALYSIS USING NLP 7
 | Negative  | -0.50  | -0.11 |
 | Neutral | -0.1 | -0.01 |
 
-## Key Findings::old_key:
+## Key Findings: :old_key:
 * Based on average sentiment score of all reviews the TextBlob model represent subjectivity and polarity 0.7 which is good as compared to Purolator (0.52).
 *	Total positive review score is 0.67 which is higher than Purolator so, it represents that Canada post have complimentary reviews than Purolator.
 *	Both services have nearly equal amount of negative sentiment score, whereas, talking about neutral, Canda post having more neutral than the Purolator’s review.
@@ -103,12 +103,33 @@ SENTIMENTAL ANALYSIS USING NLP 7
 *	About delivery time reviews Canada Post score 0.6<0.74 so, for delivery time their customer is less satisfied as compared to Purolator.
 *	Canada post’s customer service is better than Purolator as it is sentiment score is positive 0.011 than Purolator in negative (-0.009)
 
-## Visualization::old_key:
+## Visualization: :chart_with_upwards_trend:
 * Let's analyse sentimental score distribution for Canada Post and Purolator.
 
-### Canada Post 
+* ### Canada Post:
 <p align="center">
   <img src="chart 1.jpg" alt="Image" width=""/>
 </p>
 
-### Purolator
+* This graph represents the frequency distribution for sentimental score of Canada post reviews which is in range of -0.15 to 0.13.
+
+* ### Purolator:
+<p align="center">
+  <img src="chart 2.jpg" alt="Image" width=""/>
+</p>
+
+* This graph showing that the Purolator’s review distributed in between -0.1 to 0.1.
+
+
+## Limitations and Future works: :rocket:
+*	In this project we only focus on three area cost, delivery time and customer service.
+*	 Out of scope for this project: package tracking and visibility, handling of packaging, international shipping, and customer clearance, returns and refunds, safety and security of parcel, user-friendly website, and mobile application. So, we can work on this in future.
+*	In future we can perform data visualization with different BI tools for business purpose. 
+
+## Recommendations: :thinking:
+*	Canada Post should work on their delivery time as customers are less satisfied with it as compared to Purolator. 
+* The score for customer service reviews is the lowest among all three areas so, they should be more focused on their service as well to satisfy customers.
+*	Additionally, average total sentiment score from TextBlob model is good, with that the negative reviews are also there which can be highlight by NLTK model which is -1 so, Canada post must work on to reduce their negative reviews.
+*	Purolator have the negative score in the customer service-related review and then cost related revies so, they should improve this service.
+*	Overall, Canada Post offers good service as compared to Purolator. 
+
