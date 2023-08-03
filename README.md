@@ -112,6 +112,3 @@ SENTIMENTAL ANALYSIS USING NLP 7
 </p>
 
 ### Purolator
-<p align="center">
-  <img src="chart 2.jpg" alt="Image" width=""/>
-</p>
