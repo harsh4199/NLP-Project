@@ -104,3 +104,14 @@ SENTIMENTAL ANALYSIS USING NLP 7
 *	Canada post’s customer service is better than Purolator as it is sentiment score is positive 0.011 than Purolator in negative (-0.009)
 
 ## Visualization::old_key:
+* Let's analyse sentimental score distribution for Canada Post and Purolator.
+
+### Canada Post 
+<p align="center">
+  <img src="chart 1.jpg" alt="Image" width=""/>
+</p>
+
+### Purolator
+<p align="center">
+  <img src="chart 2.jpg" alt="Image" width=""/>
+</p>
